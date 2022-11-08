@@ -2,7 +2,7 @@ import 'package:faker/faker.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-class FakerPage extends StatelessWidget {
+class IntlPage extends StatelessWidget {
   //todo obj Faker
   var faker = Faker();
 

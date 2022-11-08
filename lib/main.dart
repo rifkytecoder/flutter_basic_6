@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'section_6_package/1_faker.dart';
+import 'section_6_package/2_intl.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FakerPage(),
+      home: IntlPage(),
     );
   }
 }
