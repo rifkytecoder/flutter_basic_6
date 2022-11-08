@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'section_6_package/2_intl.dart';
+import 'section_6_package/4_avatar_glow.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: IntlPage(),
+      home: AvatarGlowPage(),
     );
   }
 }

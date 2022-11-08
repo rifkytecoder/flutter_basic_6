@@ -14,7 +14,7 @@ class IntlPage extends StatelessWidget {
     print(faker.person.name()); // testing faker console
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Faker Package"),
+        title: const Text("Intl Package"),
         centerTitle: true,
       ),
       body: ListView.builder(
