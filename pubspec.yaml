@@ -32,6 +32,7 @@ dependencies:
   avatar_glow: ^2.0.2
   convex_bottom_bar: ^3.1.0+1
   cupertino_icons: ^1.0.2
+  dropdown_search: ^5.0.3
   faker: ^2.0.0
   flutter:
     sdk: flutter
@@ -56,6 +57,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/lotties/
+
 #   - images/a_dot_ham.jpeg
 # An image asset can refer to one or more resolution-specific "variants", see
 # https://flutter.dev/assets-and-images/#resolution-aware
