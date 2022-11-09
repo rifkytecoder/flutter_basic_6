@@ -46,15 +46,19 @@ class _ConvexButtonBarPageState extends State<ConvexButtonBarPage> {
           );
         },
       ),
+      // Screen page 1
       const Center(
         child: Text("Discovery"),
       ),
+      // Screen page 2
       const Center(
         child: Text("All"),
       ),
+      // Screen page 3
       const Center(
         child: Text("Message"),
       ),
+      // Screen page 4
       const Center(
         child: Text("Profile"),
       ),
@@ -66,6 +70,8 @@ class _ConvexButtonBarPageState extends State<ConvexButtonBarPage> {
         title: const Text("Convex Button Bar Package"),
         centerTitle: true,
       ),
+
+      // list widgets dari screen page
       body: widgets[currentIndex],
 
       // todo Convex Button Bar Navigation
@@ -80,6 +86,7 @@ class _ConvexButtonBarPageState extends State<ConvexButtonBarPage> {
           TabItem(icon: Icons.people, title: 'Profile'),
         ],
         initialActiveIndex: 2, // index aktif default
+
         // todo tab transisi slide page
         onTap: (int i) => setState(() {
           currentIndex = i;
